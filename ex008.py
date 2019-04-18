@@ -1,0 +1,2 @@
+n = float(input('Digite um valor em metros: '))
+print('Seu valor em centimetros é {:.0f}cm, milimetros é {:.0f}mm, decimetros é {}dm, decâmetros é {}dam, hectometros é {}hm, kilometros é {}km'.format(n*100, n*1000, n*10, n/10, n/100, n/1000))
